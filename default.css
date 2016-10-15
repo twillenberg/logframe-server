@@ -1,0 +1,201 @@
+/* tonywillenberg.com */
+
+
+/**********************/
+/* D3js Selectors     */
+/**********************/
+/**********************/
+/* BAR CHART          */
+/**********************/
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: #545454;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+/**********************/
+/* TREE DIAGRAM       */
+/**********************/
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+
+/**********************/
+/* HTML CSS Selectors */
+/**********************/
+html{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+ul{
+	margin: 5px;
+}
+hr {
+	width: 50%;
+	border: thin dotted #D5D5D5;
+	-webkit-box-shadow: 0px 0px 0px;
+	box-shadow: 0px 0px 0px;
+}
+photo   {
+	border: thin solid rgba(213,213,213,1.00);
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-left: -1px;
+}
+
+a:link{
+	colour: #ffffff;
+	color: #000000;
+	font-style: normal;
+	text-decoration: none;
+}
+a:visited {
+	color:#949494;
+	text-decoration: none;
+}
+a:hover{
+	color:#4075B4;	
+	text-decoration: underline;
+}
+a:active {
+	color:#D1DBED;
+	text-decoration: underline;
+}
+			
+
+
+            
+/**********************/
+/* Custom Selectors */
+/**********************/
+.title {
+	font-size: 20px;
+	color: #2F5DAA;
+	text-align: right;
+}
+
+.normal{
+	font-weight: normal;
+	margin-right: 5px;
+}
+
+.small-normal {
+	margin: 5px;
+	font-size: 10px;
+	color: rgba(0,0,0,1.00);
+}
+.section-heading {
+	font-size: 11pt;
+	font-weight: normal;
+	background-color: #EAEAEA;
+	color: #4075B4;
+	padding-bottom: 4px;
+	padding-left: 5px;
+	padding-right: 3px;
+	border-top: 1px solid #949494;
+	border-bottom: 1px dotted #FFFFFF;
+	padding-top: 4px;
+	margin-top: 2px;
+	margin-bottom: 0px;
+}
+
+.section-subheading{
+	margin:5px;
+}
+.footer   {
+	font-size: 8pt;
+	font-style: normal;
+	color: #949494;
+}
+
+/* The last list item has a margin ... */
+.normal ol li {
+	margin-bottom: 3px;
+}
+
+.quotation {
+	font-style: italic;
+	color: #949494;
+}
+.emphasis {
+	text-decoration: underline;
+	font-weight: bolder;
+}
+.right-sidebar   {
+	text-align: left;
+	margin-left: 4px;
+	margin-top: 5px;
+	border-bottom-width: thin;
+	margin-bottom: 10px;
+}
+.normal .emphasis {
+	margin-left: 5px;
+	font-size: 13px;
+}
+.code {
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #2F5DAA;
+	font-size: 8pt;
+	margin-left: 5px;
+	background-color: rgba(236,240,247,1.00);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-radius: 3px;
+	border: 1px solid rgba(213,213,213,1.00);
+	padding-right: 20px;
+	margin-right: 50px;
+}
+.code-inline {
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #2F5DAA;
+	font-size: 8pt;
+	margin-left: 5px;
+	background-color: rgba(236,240,247,1.00);
+	border-radius: 3px;
+	border: 1px solid rgba(213,213,213,1.00);
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.code-description {
+	padding-left: 5px;
+	color: rgba(148,148,148,1.00);
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-style: italic;
+}
