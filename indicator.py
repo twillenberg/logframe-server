@@ -1,6 +1,5 @@
 import debug
-import sys
-import requests
+#import requests
 import json
 
 
@@ -29,6 +28,7 @@ class Indicator(object):
             i.display()
 
     def print_slack(self, notification):
+        '''
         url = 'https://hooks.slack.com/services/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'
 
         data = {}
@@ -47,4 +47,5 @@ class Indicator(object):
         r.text
         r.status_code
         print r.text, r.status_code
+        '''
 
