@@ -3,16 +3,35 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="{{url}}">
-        <title>LFS</title>
+        <title>{{app_name}}</title>
     </head>
     <body>
-        <p class="section-heading">Welcome to the {{app_name}}!</p>
-        <p class="normal">This is a prototype, demonstrating the following technical features:<br>
-        1. a service running on the Google App Engine application hosting platform (cloud).<br>
-        2. routing from a subdomain name to the applicaiton (sub-domain).<br>
-        3. use of Jinja HTML templating in Python (templating).</p>
+        <p class="section-heading">{{app_name}}</p>
         <p></p>
+        
+        <section id="overview">
+        <p class="normal">This is a prototype cloud-based application, demonstrating the following technical features:<br>
+        <ol>
+            <li>a service running on the Google App Engine application hosting platform (cloud).</li>
+            <li>routing from a subdomain name to the applicaiton (sub-domain).</li>
+            <li>use of Jinja2 HTML templating in Python (templating).</li>
+            <li>static file serving on the Google App Engine platform.</li>
+        </ol>
+        </p>
+        </section>
+
+        <p></p>
+        
+        <section id="up-next">
         <p class="section-heading">Up next...</p>
-        <p class="normal">Now: {{date_time}}</p> 
+        <p class="normal"><ul>
+            <li>HTML5 boilerplate</li>
+            <li>Form handling</li>
+            <li>Asynchronoous Javascript routines</li>
+        </ul></p>
+        </section>
+    
     </body>
+    <p class="normal">Last updated: {{date_time}}</p>
+    <footer class="footer">Copyright 2016 Neocapita. All rights reserved.
 </html>

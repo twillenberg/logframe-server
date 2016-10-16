@@ -6,16 +6,16 @@ JINJA_ENVIRONMENT = jinja2.Environment(loader=jinja2.FileSystemLoader(os.path.di
 
 class Welcome(webapp2.RequestHandler):
     def get(self):
-        # Define the Http headers.
+        # Define the HTTP headers.
         self.response.headers['Content-Type'] = 'text/html'
 
         # Obtain the template from the Jinja environment.
         env = JINJA_ENVIRONMENT
         template = env.get_template('default.html')
-        app_name = 'Logical Framework Server'
-        date_time = 'Today'
-        url = '/static/default.css'
-        output = template.render(app_name='Logical Framework Server', date_time=date_time, url=url)
+        app_name = 'Logframe Server'
+        date_time = 'Sunday, 16th October 2016'
+        url = '/css/default.css'
+        output = template.render(app_name=app_name, date_time=date_time, url=url)
         
         # Output the rendered template.
         self.response.write(output)        
