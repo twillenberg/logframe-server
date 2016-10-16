@@ -1,4 +1,4 @@
-#!/Users/twillenberg/Google Drive/code/python/webtester/bin/python
+#!/Users/twillenberg/code/webtester/bin/python
 
 import sys
 import getopt
