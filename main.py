@@ -17,7 +17,10 @@ class Welcome(webapp2.RequestHandler):
             </head>
             <body>
             <p class='section-heading'>Welcome to the Logical Framework Server</p>
-            <p class='normal'>On this server you can securely manage and report againts a logical framework.</p>
+            <p class='normal'>This is a prototype demonstrating: 
+            <br>1. a service running on the Google App Engine application hosting platform.
+            <br>2. routing from a subdomain name to the applicaiton.
+            </p>
             </body>
             </html>
         ''')        
