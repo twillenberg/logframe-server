@@ -1,3 +1,0 @@
-oauth2client>=1.4.11
-grpcio>=1.0rc1
-googleapis-common-protos>=1.1.0

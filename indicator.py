@@ -3,8 +3,7 @@ import json
 import requests
 import requests_toolbelt.adapters.appengine
 
-# Use the App Engine Requests adapter. This makes sure that Requests uses
-# URLFetch.
+# Use the App Engine Requests adapter. This makes sure that Requests uses URLFetch.
 requests_toolbelt.adapters.appengine.monkeypatch()
 
 
@@ -32,7 +31,6 @@ class Indicator(object):
             i.display()
 
     def print_slack(self, notification):
-        '''
         url = 'https://hooks.slack.com/services/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'
 
         data = {}
@@ -51,5 +49,4 @@ class Indicator(object):
         r.text
         r.status_code
         print r.text, r.status_code
-        '''
 
