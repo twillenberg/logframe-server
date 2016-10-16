@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 from impact import Impact
 from outcome import Outcome
 import debug

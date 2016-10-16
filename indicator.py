@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 import debug
 import sys
 import requests

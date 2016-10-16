@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 from constants import _AssumptionLevel
 
 

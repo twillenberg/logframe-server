@@ -1,8 +1,18 @@
+import logicalframework
+import output
+import indicator
+import assumption
+import constants
+
 import webapp2
 import jinja2
 import os
 
 JINJA_ENVIRONMENT = jinja2.Environment(loader=jinja2.FileSystemLoader(os.path.dirname(__file__)+"/templates"))
+APP_NAME          = 'Logframe Server'
+DATE_TIME         = 'Sunday, 16th October, 2016'
+URL_CSS           = 'css/default.css'
+URL_IMG           = 'img/logo.neocapita.png'
 
 class Welcome(webapp2.RequestHandler):
     def get(self):
@@ -35,7 +45,8 @@ class Login(webapp2.RequestHandler):
             <p class="normal">Enter your username and password to access the Logframe Server.</p>
             </body>
             </html>
-        ''')    
+        ''')
+
 app = webapp2.WSGIApplication([
     ('/', Welcome),
     ('/welcome', Welcome),

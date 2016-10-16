@@ -1,6 +1,3 @@
-#!/usr/bin/python
-
-
 class Milestone(object):
     def __init__(self, num, description, milestone_type, parent):
         self.num = num
