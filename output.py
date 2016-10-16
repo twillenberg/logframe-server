@@ -1,4 +1,3 @@
-import debug
 import constants
 
 class Output(object):
@@ -49,6 +48,5 @@ class Output(object):
 
     def add_assumption(self, assumption):
         self.assumptions.append(assumption)
-        if debug.state:
-            print "[assumption added]"
+        print "[assumption added]"
 

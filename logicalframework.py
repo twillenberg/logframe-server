@@ -1,6 +1,5 @@
 from impact import Impact
 from outcome import Outcome
-import debug
 import time
 import constants
 
@@ -66,8 +65,7 @@ class LogicalFramework(object):
     # Assumption handling.
     def add_assumption(self, assumption):
         self.assumptions.append(assumption)
-        if debug.state:
-            print "[logical framework-level assumption added]"
+        print "[logical framework-level assumption added]"
 
     def display_assumptions(self):
         for a in self.assumptions:

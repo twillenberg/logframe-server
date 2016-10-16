@@ -1,4 +1,3 @@
-import debug
 import json
 import requests
 import requests_toolbelt.adapters.appengine
@@ -23,8 +22,7 @@ class Indicator(object):
 
     def add_milestone(self, ms):
         self.milestones.append(ms)
-        if debug.state:
-            print "[milestone added]"
+        print "[milestone added]"
 
     def print_milestones(self):
         for i in self.milestones:

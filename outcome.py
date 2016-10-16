@@ -1,6 +1,3 @@
-import debug
-
-
 class Outcome(object):
     def __init__(self, statement):
         self.statement = statement
@@ -23,13 +20,11 @@ class Outcome(object):
 
     def add_indicator(self, ind):
         self.indicators.append(ind)
-        if debug.state:
-            print "[outcome indicator added]"
+        print "[outcome indicator added]"
 
     def add_assumption(self, assumption):
         self.assumptions.append(assumption)
-        if debug.state:
-            print "[assumption added]"
+        print "[assumption added]"
 
     def number_of_assumptions(self):
         print "The logical framework has %d outcome-level assumption(s):" % len(self.assumptions)
