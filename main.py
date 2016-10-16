@@ -1,15 +1,23 @@
 import webapp2
-from jinja2 import Template
+import jinja2
+import os
 
-env = Environment(loader=PackageLoader('webtester', 'templates'))
+JINJA_ENVIRONMENT = jinja2.Environment(loader=jinja2.FileSystemLoader(searchpath="templates"))
 
 class Welcome(webapp2.RequestHandler):
     def get(self):
+        # Define the Http headers.
         self.response.headers['Content-Type'] = 'text/html'
-        template = env.get_template('default.html')
 
-        template = Template("""""")
-        self.response.write(template.render(app_name="Logical Framework Server"))        
+        # Obtain the template from the Jinja environment.
+        env = JINJA_ENVIRONMENT
+        template = env.get_template('default.html')
+        app_name = "Logical Framework Server"
+        date_time = "Today"
+        output = template.render(app_name="Logical Framework Server", date_time=date_time)
+        
+        # Output the rendered template.
+        self.response.write(output)        
 
 class Login(webapp2.RequestHandler):
     def get(self):
