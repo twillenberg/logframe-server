@@ -2,7 +2,7 @@ import webapp2
 import jinja2
 import os
 
-JINJA_ENVIRONMENT = jinja2.Environment(loader=jinja2.FileSystemLoader(searchpath="templates"))
+JINJA_ENVIRONMENT = jinja2.Environment(loader=jinja2.FileSystemLoader(os.path.dirname(__file__)+"/templates"))
 
 class Welcome(webapp2.RequestHandler):
     def get(self):
@@ -12,9 +12,10 @@ class Welcome(webapp2.RequestHandler):
         # Obtain the template from the Jinja environment.
         env = JINJA_ENVIRONMENT
         template = env.get_template('default.html')
-        app_name = "Logical Framework Server"
-        date_time = "Today"
-        output = template.render(app_name="Logical Framework Server", date_time=date_time)
+        app_name = 'Logical Framework Server'
+        date_time = 'Today'
+        url = '/static/default.css'
+        output = template.render(app_name='Logical Framework Server', date_time=date_time, url=url)
         
         # Output the rendered template.
         self.response.write(output)        
