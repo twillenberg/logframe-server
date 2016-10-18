@@ -1,9 +1,9 @@
-import logicalframework
-import output
-import indicator
-import assumption
-import constants
+from logicalframework import LogicalFramework
+from output import Output
+from indicator import Indicator
+from assumption import Assumption
 
+import json
 import requests
 import requests_toolbelt.adapters.appengine
 
@@ -15,32 +15,47 @@ import jinja2
 import os
 
 JINJA_ENVIRONMENT = jinja2.Environment(loader=jinja2.FileSystemLoader(os.path.dirname(__file__)+"/templates"))
+SLACK_URL         = 'https://hooks.slack.com/services/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'
+SLACK_CHANNEL     = '#engineering'
+SLACK_USERNAME    = 'webhookbot'
+SLACK_NOTIFICATION= 'Logframe indicator status changed via report, independant verification, or field sensor. Smart contract clause triggered on blockchain.'
 APP_NAME          = 'Logframe Server'
 DATE_TIME         = 'Sunday, 16th October, 2016'
 URL_CSS           = 'css/default.css'
 URL_IMG           = 'img/logo.neocapita.png'
 
-class Welcome(webapp2.RequestHandler):
+class Login(webapp2.RequestHandler):
     def get(self):
         # Define the HTTP headers.
         self.response.headers['Content-Type'] = 'text/html'
-
         # Obtain the template from the Jinja environment.
         env = JINJA_ENVIRONMENT
         template = env.get_template('default.html')
-        app_name = 'Logframe Server'
-        date_time = 'Sunday, 16th October 2016'
-        url = '/css/default.css'
-        output = template.render(app_name=app_name, date_time=date_time, url=url)
-        
-        # Output the rendered template.
-        self.response.write(output)        
+        # Render and output the template.
+        self.response.write(template.render(app_name=APP_NAME, date_time=DATE_TIME, url=URL_CSS))
 
-'''
+        """
+        # Prepare a JSON payload.
+        data = {}
+        data['channel'] = SLACK_CHANNEL
+        data['username'] = SLACK_USERNAME
+        data['text'] = SLACK_NOTIFICATION
+
+        # Encode the 'data' as binary in the JSON object, payload.
+        payload = json.dumps(data)
+
+        # POST with JSON
+        r = requests.post(SLACK_URL, payload)
+
+        # Response, status etc
+        print("Response: ", r.text, " Status Code: ", r.status_code)
+        """
+
 class Controller:
-    lf = LogicalFramework()
+    lf = LogicalFramework
 
     def __init__(self, lf):
+        # Given a logframe, initialize it.
         self.lf = lf
 
     def set_impact(self, impact_statement):
@@ -51,6 +66,7 @@ class Controller:
 
     def set_outcome(self, outcome_statement):
         self.lf.set_outcome(outcome_statement)
+
     def add_outcome_indicator(self,ind):
         self.lf.add_outcome_indicator(ind)
 
@@ -60,7 +76,7 @@ class Controller:
     def add_outcome_assumption(self,assumption):
         self.lf.outcome.add_assumption(assumption)
 
-    def set_outputs():
+    def set_outputs(self):
         """ Builds the logical framework object heirarchy. """
 
         # Creating output 1 ######################################################
@@ -186,7 +202,13 @@ class Controller:
         assumption3_1 = Assumption(assumption_level.OUTPUT, 1, "Assuming that DFID support is sustained.")
         output3.add_assumption(assumption3_1)
         lf.add_output(output5)
+    def print_to_screen(self):
+        lf = LogicalFramework()
+        lf = self.lf
 
+        print lf.get_project_name(), ", Version: %.2f" % lf.get_version()
+        print time.strftime("%d/%m/%Y"), "@", time.strftime("%I:%M:%S")
+        print self.separator
 
     def display_lower():
         lf.number_of_outputs()
@@ -238,10 +260,9 @@ class Create(webapp2.RequestHandler):
         ctrler.add_impact_assumption(impact_assumption1)
         ctrler.add_outcome_assumption(outcome_assumption1)
 
-        ctrler.display
-'''
+        ctrler.display()
 
 app = webapp2.WSGIApplication([
-    ('/', Welcome),
-    ('/welcome', Welcome)
+    ('/', Login),
+    ('/login', Login)
 ], debug=True)

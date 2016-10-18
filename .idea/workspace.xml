@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d2c0fb3-084a-449a-af2b-b510481d6138" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assumption.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/debug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/impact.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/indicator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/milestone.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/note.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outcome.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug.py" afterPath="$PROJECT_DIR$/debug.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impact.py" afterPath="$PROJECT_DIR$/impact.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indicator.py" afterPath="$PROJECT_DIR$/indicator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logicalframework.py" afterPath="$PROJECT_DIR$/logicalframework.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outcome.py" afterPath="$PROJECT_DIR$/outcome.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.py" afterPath="$PROJECT_DIR$/output.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default.html" afterPath="$PROJECT_DIR$/templates/default.html" />
     </list>
     <ignored path="logframe-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,65 +34,39 @@
     <favorites_list name="logframe-server" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="debug.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/debug.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="impact.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impact.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="indicator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/indicator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
+                <element signature="e#2273#2311#0" expanded="false" />
+                <element signature="e#2362#2396#0" expanded="false" />
+                <element signature="e#2454#2495#0" expanded="false" />
+                <element signature="e#2554#2596#0" expanded="false" />
+                <element signature="e#2633#14780#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logicalframework.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="logicalframework.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logicalframework.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="outcome.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/outcome.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="output.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/output.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.14563107">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#995#1020#0" expanded="false" />
+                <element signature="e#1085#1111#0" expanded="false" />
+                <element signature="e#1174#1197#0" expanded="false" />
+                <element signature="e#1240#1314#0" expanded="false" />
+                <element signature="e#1355#1407#0" expanded="false" />
+                <element signature="e#1480#1574#0" expanded="false" />
+                <element signature="e#1619#1699#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,22 +85,23 @@
         <option value="$PROJECT_DIR$/note.py" />
         <option value="$PROJECT_DIR$/main_to-merge.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/appengine_config.py" />
         <option value="$PROJECT_DIR$/app.yaml" />
         <option value="$PROJECT_DIR$/debug.py" />
-        <option value="$PROJECT_DIR$/impact.py" />
         <option value="$PROJECT_DIR$/indicator.py" />
-        <option value="$PROJECT_DIR$/logicalframework.py" />
         <option value="$PROJECT_DIR$/outcome.py" />
         <option value="$PROJECT_DIR$/output.py" />
+        <option value="$PROJECT_DIR$/templates/default.html" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/impact.py" />
+        <option value="$PROJECT_DIR$/logicalframework.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1173" />
+    <option name="height" value="1172" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -135,14 +116,14 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
-      <sortByType />
+      <sortByType ProjectPane="true" />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
@@ -163,6 +144,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="logframe-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logframe-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logframe-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,7 +344,13 @@
       <option name="project" value="LOCAL" />
       <updated>1476618686032</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Removed references to debug class.">
+      <created>1476619097682</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1476619097682</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -362,27 +363,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1173" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1172" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15903106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" show_stripe_button="true" weight="0.42005676" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="405" y="313" width="1332" height="692" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11608094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890996" sideWeight="0.5018431" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32985783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="1388" y="56" width="521" height="1091" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285985" sideWeight="0.49815693" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41950756" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="405" y="313" width="1332" height="692" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32923368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="604" y="364" width="1211" height="572" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.442492" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="604" y="364" width="1211" height="572" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -400,31 +401,43 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Disabled requests import, for now." />
     <MESSAGE value="Moved the favicon.ico and formatted the app.yaml." />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved the favicon.ico and formatted the app.yaml." />
+    <MESSAGE value="Removed references to debug class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed references to debug class." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/note.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#2273#2311#0" expanded="false" />
+            <element signature="e#2362#2396#0" expanded="false" />
+            <element signature="e#2454#2495#0" expanded="false" />
+            <element signature="e#2554#2596#0" expanded="false" />
+            <element signature="e#2633#14780#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outcome.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#2273#2311#0" expanded="false" />
+            <element signature="e#2362#2396#0" expanded="false" />
+            <element signature="e#2454#2495#0" expanded="false" />
+            <element signature="e#2554#2596#0" expanded="false" />
+            <element signature="e#2633#14780#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -432,20 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -483,11 +482,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -499,16 +493,7 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assumption.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
@@ -517,20 +502,6 @@
     <entry file="file://$PROJECT_DIR$/img/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/milestone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slack.py">
@@ -558,15 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.058195926">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08729389">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,57 +536,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35820895">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debug.py">
+    <entry file="file://$PROJECT_DIR$/main_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.23323615">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impact.py">
+    <entry file="file://$PROJECT_DIR$/templates/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.4090909">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indicator.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#2273#2311#0" expanded="false" />
+            <element signature="e#2362#2396#0" expanded="false" />
+            <element signature="e#2454#2495#0" expanded="false" />
+            <element signature="e#2554#2596#0" expanded="false" />
+            <element signature="e#2633#14780#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logicalframework.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outcome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.14563107">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#995#1020#0" expanded="false" />
+            <element signature="e#1085#1111#0" expanded="false" />
+            <element signature="e#1174#1197#0" expanded="false" />
+            <element signature="e#1240#1314#0" expanded="false" />
+            <element signature="e#1355#1407#0" expanded="false" />
+            <element signature="e#1480#1574#0" expanded="false" />
+            <element signature="e#1619#1699#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
